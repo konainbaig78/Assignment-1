@@ -1,0 +1,16 @@
+.list {
+  list-style-type: circle;
+  padding-left: 20px;
+  font-size: 18px;
+  color: #444;
+}
+
+.list-item {
+  margin: 5px 0;
+  transition: 0.2s;
+}
+
+.list-item:hover {
+  color: darkorange;
+  font-weight: bold;
+}
