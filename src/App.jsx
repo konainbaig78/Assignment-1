@@ -56,7 +56,7 @@ const App = () => {
         {active === "List" && <List />}
         {active === "Card" && (
           <>
-            <div
+            <div className="Fd"
               style={{
                 display: "flex",
                 alignItems: "center",

@@ -42,3 +42,15 @@
   cursor: pointer;
   border-radius: 8px;
 }
+
+@media screen and (max-width:477px) and (min-width:295px) {
+  .button-group {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  gap: 1rem;
+  margin-bottom: 2rem;}
+  .Fd{
+    flex-direction: column;
+  }
+}

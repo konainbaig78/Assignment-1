@@ -1,4 +1,5 @@
 import React, { useState } from "react";
+import "./Form.css"
 
 const Form = () => {
   const [formData, setFormData] = useState({
@@ -31,7 +32,7 @@ const Form = () => {
 
   return (
     <div style={{ display: "flex", justifyContent: "center" }}>
-      <div
+      <div className="form"
         style={{
           border: "1px solid white",
           padding: "20px",
