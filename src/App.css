@@ -1,0 +1,44 @@
+.app-container {
+  background-color: #DFEFCA;
+  min-height: 100vh;
+  padding: 2rem;
+  font-family: 'Segoe UI', sans-serif;
+}
+
+.app-title {
+  text-align: center;
+  color: #B48B7D;
+  margin-bottom: 1rem;
+}
+
+.button-group {
+  display: flex;
+  justify-content: center;
+  gap: 1rem;
+  margin-bottom: 2rem;
+}
+
+.default-btn {
+  background-color: #AFC2D5;
+  color: #fff;
+  border: none;
+  padding: 10px 20px;
+  font-size: 1rem;
+  cursor: pointer;
+  border-radius: 8px;
+  transition: background-color 0.3s ease;
+}
+
+.default-btn:hover {
+  background-color: #CCDDD3;
+}
+
+.active-btn {
+  background-color: #FFF9A5;
+  color: #333;
+  border: 2px solid #B48B7D;
+  padding: 10px 20px;
+  font-size: 1rem;
+  cursor: pointer;
+  border-radius: 8px;
+}

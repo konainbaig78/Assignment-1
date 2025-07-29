@@ -1,0 +1,29 @@
+.greeting-box {
+  background-color: #AFC2D5;
+  padding: 20px;
+  border-radius: 12px;
+  margin: 10px auto;
+  max-width: 400px;
+  text-align: center;
+  color: #B48B7D;
+  box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+}
+
+.greeting-box h2 {
+  font-size: 2rem;
+  font-weight: bold;
+}
+.greeting-box button {
+  background-color: #FFF9A5;
+  border: none;
+  padding: 10px 20px;
+  font-size: 1rem;
+  border-radius: 8px;
+  cursor: pointer;
+  color: #B48B7D;
+  transition: background-color 0.3s ease;
+}
+
+.greeting-card button:hover {
+  background-color: #DFEFCA;
+}
